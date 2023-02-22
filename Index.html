@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Ramon</title>
+    <link rel="stylesheet" type="text/css" href="CSS/Estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="centradodImagen">
+
+        <img src="https://randomuser.me/api/portraits/men/95.jpg" alt="Foto de Ramon">
+    </div>
+    <div id="centradodImagen">
+        <p>Ramon Perez</p>
+        <p>581-5565-6548</p>
+        <p>AVENIDA GODOY CRUZ, 580 PISO 3 DEPARTAMENTO B, MENDOZA - CAPITAL</p>
+        <p>DNI: 33086274</p>
+        <p>Fecha Nacimiento: 25-09-1998 – Soltero.</p>
+
+    </div>
+
+    <h4 onclick="mostrarOBJETIVO();">OBJETIVO:</h4>
+    <div id="OcultarOBJETIVO">
+        <p>Técnico en Electrónica con conocimientos en calibración industrial,
+            de PLC, reemplazo de tarjetas y lecturas de cromatogramas. Manejo de equipos de
+            telecomunicación. Sustitución e interpretación del comportamiento de componentes
+            (por medio de mediciones) electrónico en el área informática. Participación en
+            proyectos de tendido de fibra óptica. Profesional organizado con capacidad de liderazgo,
+            orientado al trabajo en equipo y enfocado en soluciones de problemas Dispuesto a desarrollarme
+            en nuevas áreas laborales.</p>
+
+        <h6 onclick="ocultarOBJETIVO();">Ocultar</h6>
+
+    </div>
+
+    <h4 onclick="mostrarEXPERIENCIA_LABORAL();">EXPERIENCIA LABORAL:</h4>
+    <div id="OcultarEXPERIENCIA_LABORAL">
+        <p>TELEBIT S.A Junio 2019 / Actualmente. TÉCNICO INTI, ENCARGADO DE LAS CALIBRACION DEL
+            LABORATORIO SAC: Gestión de control de datos de certificaciones SAC. Registro de puntos
+            de calibración de instrumentos. Control de instrumentos patrones (Primarios y secundarios).
+            Calibración y contraste de instrumentos medidores de presión y temperatura (empleando protocolo
+            Hart). Calibración de válvulas de seguridad (PSV) y válvulas de presión y vacío (VPV).
+            Verificación dimensional de Placas orificio y tramos de medición de puentes de gas. Mantenimiento
+            preventivo en unidades de custodia de transferencia automática (LACT). Tendido de fibra óptica.</p>
+
+        <p>ANALYSER CA. Marzo 2017 / Marzo 2018. TECNICO INSTRUMENTISTA EN CROMATOGRAFIA (PDVSA):
+            Planificar y ejecutar el Mantenimiento preventivo y correctivo de equipos analizadores de gas,
+            de reguladores de presión y temperatura, de splitter líquidos y de gas, de válvulas de dos y tres
+            vías, de selección, neumáticas, solenoides y cambio de sellos. Diagnóstico de fallas en los módulos
+            de comunicación, cambio de detectores y tarjetas convertidoras de señales, de tubos de 1/16”,
+            1/8”1/16”, de ferrules y copas. Limpieza de filtros de micrones. Conocimientos básicos en
+            mantenimiento operacional (instrumentación).</p>
+
+        <p>Empresa Tranzoategui: Agosto 2016 / Marzo 2017. TECNICO DE EQUIPOS ELECTRONICOS: Soporte técnico
+            de computadoras, formateo e instalación de programas reparación de tarjetas, de fuentes de poder.
+            Mantenimiento en el área de Telecomunicación, alineación de equipos CCTV, pantalla operacional y
+            sensores con sala de control. Responsable de las comunicaciones de sala de control de operaciones
+            y operatividad de los equipos electrónicos. Formateo e instalación de programas, reparación</p>
+
+
+        <h6 onclick="ocultarEXPERIENCIA_LABORAL();">Ocultar</h6>
+
+    </div>
+
+    <h4 onclick="mostrarINFORMACION_COMPLEMENTARIA();">INFORMACION COMPLEMENTARIA: (Cursos Realizados)</h4>
+
+    <div id="OcultarINFORMACION_COMPLEMENTARIA">
+        <li>UTN (RESISTENCIA) – AUTOMATIZAION CON MICRO PLC</li>
+        <li>FESTO – NEUMATICA</li>
+        <li>FESTO – ELECTRONEUMATICA</li>
+        <li>FESTO – FUNDAMENTOS EN PLC</li>
+        <li>Soporte Técnico y Reparación de Computadoras</li>
+
+        <h6 onclick="ocultarINFORMACION_COMPLEMENTARIA();">Ocultar</h6>
+
+    </div>
+    <script>
+        function mostrarOBJETIVO() {
+            document.getElementById('OcultarOBJETIVO').style.display = 'block';
+        }
+        function ocultarOBJETIVO() {
+            document.getElementById('OcultarOBJETIVO').style.display = 'none';
+        }
+        function mostrarEXPERIENCIA_LABORAL() {
+            document.getElementById('OcultarEXPERIENCIA_LABORAL').style.display = 'block';
+        }
+        function ocultarEXPERIENCIA_LABORAL() {
+            document.getElementById('OcultarEXPERIENCIA_LABORAL').style.display = 'none';
+
+        }
+
+        function mostrarINFORMACION_COMPLEMENTARIA() {
+            document.getElementById('OcultarINFORMACION_COMPLEMENTARIA').style.display = 'block';
+        }
+        function ocultarINFORMACION_COMPLEMENTARIA() {
+            document.getElementById('OcultarINFORMACION_COMPLEMENTARIA').style.display = 'none';
+
+        }
+    </script>
+
+</body>
+
+</html>

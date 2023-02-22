@@ -1,0 +1,49 @@
+.centradodImagen {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+li {
+
+    font-family: sans-serif;
+}
+
+h6 {
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+
+h6:hover {
+    color: rgb(172, 127, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+h4:hover {
+
+    color: rgb(127, 206, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#OcultarOBJETIVO {
+    display: none;
+}
+
+#OcultarEXPERIENCIA_LABORAL {
+    display: none;
+}
+
+#OcultarINFORMACION_COMPLEMENTARIA {
+    display: none;
+}
